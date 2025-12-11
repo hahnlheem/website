@@ -1,0 +1,155 @@
+/* Basic page layout */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #ffffff;
+  color: #222;
+}
+
+.page {
+  max-width: 750px;
+  margin: 40px auto 60px auto;
+  padding: 0 15px;
+  background: #ffffff;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.name-block h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  margin: 0.3rem 0;
+  color: #444;
+}
+
+.contact {
+  margin: 0.4rem 0 0 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.photo img {
+  max-width: 130px;
+  border-radius: 4px;
+}
+
+/* Navigation */
+
+nav {
+  margin: 0.8rem 0 1.5rem 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.6rem;
+}
+
+nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  color: #0056a3;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+
+main section {
+  margin-bottom: 1.8rem;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  /* border-left: 3px solid #012169; */
+  /* padding-left: 0.4rem; */
+}
+
+/* CONTACT SECTION EXACT STYLE */
+
+.contact-block {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+}
+
+.contact-row {
+  display: flex;
+  margin-bottom: 0.3rem;
+}
+
+.contact-label {
+  width: 80px;        /* aligns labels vertically like your screenshot */
+  font-weight: 600;
+}
+
+.contact-value {
+  white-space: pre-line;  /* preserves line breaks for the mailing address */
+}
+
+/* Lists */
+
+.item-list {
+  list-style-type: none;
+  padding-left: 1rem;
+  margin: 0.2rem 0 0 0;
+}
+
+.item-list li {
+  margin-bottom: 0.9rem;
+}
+
+/* Links */
+
+a {
+  color: #0056a3;
+}
+
+a:visited {
+  color: #5a3d99;
+}
+
+/* Misc text */
+
+.small {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+/* Footer */
+
+footer {
+  border-top: 1px solid #eee;
+  padding-top: 0.8rem;
+  margin-top: 2rem;
+  text-align: left;
+  color: #777;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+
+  .photo {
+    margin-top: 0.8rem;
+  }
+}
