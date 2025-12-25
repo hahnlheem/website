@@ -81,11 +81,10 @@ h2 {
   /* padding-left: 0.4rem; */
 }
 
-h3 {
-  font-size: 1rem;
-  margin-bottom: 0.4rem;
-  /* border-left: 3px solid #012169; */
-  padding-left: 0.3rem;
+.notes {
+  font-weight: normal;
+  font-style: italic;
+  margin-bottom: 0.3rem;
 }
 
 /* CONTACT SECTION EXACT STYLE */
