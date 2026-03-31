@@ -117,8 +117,8 @@ h2 {
   margin: 0.2rem 0 0 0;
 }
 
-.item-list li {
-  margin-bottom: 0.9rem;
+li {
+  margin-bottom: 0.5rem;
 }
 
 /* Links */
@@ -136,6 +136,28 @@ a:visited {
 .small {
   font-size: 0.8rem;
   color: #555;
+}
+
+/* Click for abstract */
+
+/* details {
+  margin-bottom: 0.5em;
+} */
+
+summary {
+  cursor: pointer;
+  list-style: none;
+
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.abstract {
+  margin-top: 0.5em;
+  margin-left: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 /* Footer */
