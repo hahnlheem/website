@@ -81,7 +81,7 @@ h2 {
   /* padding-left: 0.4rem; */
 }
 
-.notes {
+.subsection {
   font-weight: normal;
   font-style: italic;
   margin-bottom: 0.3rem;
@@ -147,7 +147,6 @@ a:visited {
 summary {
   cursor: pointer;
   list-style: none;
-
 }
 
 summary::-webkit-details-marker {
